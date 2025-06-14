@@ -66,16 +66,21 @@ class ImprovedScheduler:
     
     def get_korea_time(self) -> datetime:
         """현재 한국시간 반환"""
-        return datetime.now(self.timezone)
+        # UTC 시간을 한국시간으로 변환
+        utc_now = datetime.utcnow()
+        kst_now = utc_now + timedelta(hours=9)
+        return kst_now.replace(tzinfo=pytz.timezone('Asia/Seoul'))
     
     def setup_schedule(self):
-        """한국시간 기준 스케줄 설정"""
+        """UTC 기준 스케줄 설정"""
         try:
             # 기존 스케줄 초기화
             schedule.clear()
             
-            # 한국시간 기준 스케줄 등록
-            schedule.every().day.at(self.schedule_time).do(self.run_news_automation)
+            # UTC 기준 스케줄 등록
+            # 한국시간 07:30은 UTC 기준으로 22:30임
+            utc_schedule_time = datetime.strptime(self.schedule_time, '%H:%M') - timedelta(hours=9)
+            schedule.every().day.at(utc_schedule_time.strftime('%H:%M')).do(self.run_news_automation)
             
             korea_time = self.get_korea_time()
             next_run = schedule.next_run()
@@ -85,7 +90,7 @@ class ImprovedScheduler:
             logger.info(f"   • 현재 한국시간: {korea_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
             
             if next_run:
-                # UTC 시간을 한국시간으로 변환
+                # UTC 시간을 한국시간으로 변환하여 표시
                 next_run_kst = next_run.replace(tzinfo=pytz.UTC).astimezone(self.timezone)
                 logger.info(f"   • 다음 실행: {next_run_kst.strftime('%Y-%m-%d %H:%M:%S %Z')}")
             
