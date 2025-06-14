@@ -199,17 +199,17 @@ class GoogleSheetsManager:
         if not self.worksheet:
             logger.warning("⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...")
             if not self._initialize_client():
-                return []
-        
+                return self.fallback_keywords
+
         try:
             logger.info("📥 구글시트에서 키워드 로딩 중...")
-            
+
             # 모든 데이터 가져오기
             all_values = self.worksheet.get_all_values()
             
             if not all_values:
                 logger.warning("⚠️ 시트가 비어있습니다")
-                return []
+                return self.fallback_keywords
             
             # 헤더 확인
             headers = all_values[0]
@@ -224,7 +224,7 @@ class GoogleSheetsManager:
                     header_map[col] = headers.index(col)
                 else:
                     logger.error(f"❌ 필수 컬럼 누락: {col}")
-                    return []
+                    return self.fallback_keywords
             
             # 선택적 컬럼 매핑
             optional_columns = ['category', 'priority', 'active']
@@ -261,10 +261,10 @@ class GoogleSheetsManager:
             logger.info(f"🎯 활성 키워드: {len(active_keywords)}개")
             
             return active_keywords
-            
+        
         except Exception as e:
             logger.error(f"❌ 키워드 로딩 실패: {e}")
-            return []
+            return self.fallback_keywords
     
     def _safe_int(self, value: str, default: int = 1) -> int:
         """안전한 정수 변환"""
