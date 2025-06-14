@@ -1,0 +1,26 @@
+# Google News AI 자동화 시스템 의존성
+
+# 기본 패키지
+requests>=2.31.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+feedparser>=6.0.0
+pytz>=2023.3
+
+# OpenAI API
+openai>=1.0.0
+
+# 🆕 구글시트 연동
+gspread>=5.10.0
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Discord 봇 (선택사항)
+discord.py>=2.3.0
+
+# 추가 유틸리티
+colorama>=0.4.6
+tqdm>=4.65.0

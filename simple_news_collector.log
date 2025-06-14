@@ -1,0 +1,89 @@
+2025-06-14 22:55:41,313 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:41,314 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:41,314 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:41,314 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:41,314 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:41,314 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:41,314 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:41,314 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:41,314 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:41,314 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:41,314 - INFO - 📥 구글시트 키워드 추가: 10개
+2025-06-14 22:55:41,314 - INFO - 🔧 기본 키워드 추가: 30개
+2025-06-14 22:55:41,314 - INFO - 🔗 통합 키워드: 31개
+2025-06-14 22:55:50,909 - INFO - 기사 본문 크롤링 시작: 10개
+2025-06-14 22:55:50,909 - ERROR - 크롤링 오류 - 젠슨 황 "타사의 자체 AI 칩 개발, 결국 포기할 것으로 예상" - AI타임스: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 국제인공지능윤리협회, 경북 청소년 AI 경연 개최…"기술 이해하는 세대가 이긴다" - 지디넷코리아: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 디지털융합교육원 ‘제21기 생성형 AI 교육지도사 및 AI크리에이터 강사 양성 과정’ 모집 - 파이낸스투데이: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - AI 기능 대신 디자인 선택한 애플 “감 잃었나” [IT+] - 더스쿠프: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - [금융가 사람들] 미래에셋 AI전략은 웰스스팟에…'AI퀀트 채권 전문가' 임형균 - 연합인포맥스: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - AI 시대, 정보 획득 방법은? 누가 승리할까? - 한국아파트신문: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 박수현 의원, “AI 시대, 창작자 권리 보호법” 대표발의 - 서울뉴스통신: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 평시 방역으로 전환했는데…서산 오리농장서 H5형 AI 항원 검출 - 농민신문: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 박수현 "AI, 창작자 권리 보호 필요"... AI기본법 개정안 발의 - meconomynews.com: 'link'
+2025-06-14 22:55:50,910 - ERROR - 크롤링 오류 - 민관합동 수출개척단, 국내 AI·디지털 혁신기업 '아세안 진출' 지원 - 헬로티: 'link'
+2025-06-14 22:55:50,911 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,911 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,911 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,911 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,911 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,912 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,912 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,912 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,912 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,912 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,912 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,912 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,913 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,913 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,913 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,913 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,913 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,913 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,913 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,913 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,913 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,913 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,913 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,913 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,914 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,914 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,914 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,914 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,915 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,915 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,915 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,915 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,915 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,915 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,915 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,915 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,916 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,916 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,916 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,916 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,916 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,916 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,916 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,916 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,916 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,916 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,916 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,916 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,917 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,917 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,917 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,917 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,917 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,917 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:50,917 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,917 - WARNING - ⚠️ 구글시트가 연결되지 않았습니다. 재연결 시도...
+2025-06-14 22:55:50,917 - ERROR - ❌ 구글시트 초기화 실패: Service account info was not in the expected format, missing fields token_uri, client_email.
+2025-06-14 22:55:50,917 - WARNING - ⚠️ 시트 로딩 실패, Fallback 키워드 사용
+2025-06-14 22:55:50,917 - INFO - 📥 구글시트에서 키워드 로딩: 10개
+2025-06-14 22:55:50,917 - INFO - 🔑 사용할 키워드 (10개): AI, 인공지능, ChatGPT, 생성형AI, 머신러닝...
+2025-06-14 22:55:59,115 - INFO - Notion 블록 1-68 추가 성공
+2025-06-14 22:55:59,118 - INFO - Notion 페이지 생성 성공: https://www.notion.so/Google-News-AI-2025-06-14-22-55-212b5922028681409556d53f3fc8f55d
+2025-06-14 22:55:59,119 - INFO - Notion URL: https://www.notion.so/Google-News-AI-2025-06-14-22-55-212b5922028681409556d53f3fc8f55d
+2025-06-14 22:56:00,266 - INFO - 텔레그램 메시지 전송 성공
+2025-06-14 22:56:00,267 - INFO - Google News 간단 수집 완료 - 10개 기사, 19.0초, OpenAI 비용 없음
