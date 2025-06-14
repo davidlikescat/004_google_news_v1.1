@@ -1,0 +1,94 @@
+# Google News AI 자동화 시스템 개발 문서
+
+## 1. 프로젝트 개요
+- 프로젝트명: Google News AI 자동화 시스템
+- 버전: v1.4
+- 개발자: 양준모
+- 개발일: 2025.06
+
+## 2. 주요 기능
+- 구글 뉴스 크롤링
+- 구글시트 키워드 연동
+- 스케줄링 자동화
+- 키워드 캐시 관리
+
+## 3. 환경 설정
+
+### 3.1 필수 패키지
+```bash
+pip install gspread google-auth python-dotenv schedule
+```
+
+### 3.2 환경 변수 설정
+`.env` 파일에 다음과 같이 설정:
+```
+GOOGLE_SHEETS_CREDENTIALS_FILE=credential.json
+GOOGLE_SHEETS_SPREADSHEET_ID=your_spreadsheet_id
+GOOGLE_SHEETS_WORKSHEET_NAME=Sheet1
+SCHEDULE_TIME=07:30
+```
+
+## 4. 구글시트 연동
+
+### 4.1 서비스 계정 설정
+1. Google Cloud Console에서 프로젝트 생성
+2. 서비스 계정 생성 및 키 발급
+3. 구글시트에 서비스 계정 이메일 공유
+
+### 4.2 키워드 시트 구조
+- 필수 컬럼: `keyword`
+- 선택 컬럼: `category`, `priority`, `active`
+- `active` 컬럼: true/false 값을 다양한 형식으로 지원
+
+## 5. 스케줄링 설정
+
+### 5.1 시간대 설정
+- 한국시간(KST) 기준으로 실행
+- UTC 기준으로 스케줄 등록
+- 예: KST 07:30 → UTC 22:30
+
+### 5.2 실행 방법
+```bash
+# 백그라운드 실행
+nohup python3 scheduler.py &
+
+# 실행 중인 프로세스 확인
+ps aux | grep scheduler.py
+
+# 로그 확인
+tail -f nohup.out
+
+# 프로세스 종료
+pkill -f scheduler.py
+```
+
+## 6. 키워드 관리
+
+### 6.1 키워드 로드
+1. 구글시트에서 키워드 자동 로드
+2. 캐시 사용으로 성능 최적화
+3. 기본 키워드와 통합 관리
+
+### 6.2 키워드 캐시
+- 캐시 갱신 주기: 24시간
+- 캐시 사용 시 로그 표시
+- 캐시 갱신 실패 시 기본 키워드 사용
+
+## 7. 오류 해결
+
+### 7.1 키워드 로드 오류
+```
+❌ 키워드 로드 실패: 'GoogleSheetsManager' object has no attribute '_load_keywords_from_sheet'
+```
+- `GoogleSheetsManager` 클래스의 메서드가 누락된 경우
+- 클래스를 수정하여 메서드 추가 필요
+
+### 7.2 스케줄링 오류
+- 시간대 설정 확인
+- 스케줄러 로그 확인
+- `nohup.out` 파일 확인
+
+## 8. 참고사항
+- 모든 로그는 한국시간(KST) 기준으로 표시
+- 키워드는 자동으로 캐시에 저장됨
+- 스케줄러는 매일 지정된 시간에 실행됨
